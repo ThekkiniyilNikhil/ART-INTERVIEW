@@ -1,0 +1,31 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-container input {
+    display: block;
+    width: 240px;
+    height: 32px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+}
+.login-container button {
+    display: block;
+    float: right;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.error {
+    border-color: red !important;
+}
